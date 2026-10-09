@@ -1,0 +1,162 @@
+/*
+ Kurimanjyu Chic - personal iOS KakaoTalk theme
+ Generated from the user's four source images for private use.
+*/
+
+ManifestStyle {
+    -kakaotalk-theme-name: 'Kurimanjyu Chic';
+    -kakaotalk-theme-version: '26.10.0';
+    -kakaotalk-theme-url: 'https://www.kakaocorp.com/service/KakaoTalk';
+    -kakaotalk-author-name: 'Private Personal Theme';
+    -kakaotalk-theme-id: 'com.private.kakaotalk.theme.kurimanjyu.chic';
+}
+
+HeaderStyle-Main {
+    background-color: #FFF8EC;
+    -ios-text-color: #3E2A1F;
+    -ios-tab-text-color: #A9774F;
+    -ios-tab-highlighted-text-color: #3E2A1F;
+}
+
+MainViewStyle-Primary {
+    background-color: #FFF8EC;
+    -ios-background-image: 'mainBgImage.png';
+    -ios-text-color: #3E2A1F;
+    -ios-highlighted-text-color: #6B4A32;
+    -ios-description-text-color: #8B6B52;
+    -ios-description-highlighted-text-color: #A9774F;
+    -ios-paragraph-text-color: #9A806A;
+    -ios-paragraph-highlighted-text-color: #A9774F;
+    -ios-normal-background-color: #FFF8EC;
+    -ios-normal-background-alpha: 0.0;
+    -ios-selected-background-color: #6B4A32;
+    -ios-selected-background-alpha: 0.08;
+}
+
+MainViewStyle-Secondary {
+    background-color: #F8EEDC;
+}
+
+SectionTitleStyle-Main {
+    border-color: #A9774F;
+    border-alpha: 0.16;
+    -ios-text-color: #6B4A32;
+    -ios-text-alpha: 0.84;
+}
+
+FeatureStyle-Primary {
+    -ios-text-color: #6B4A32;
+}
+
+TabBarStyle-Main {
+    background-color: #FFF8EC;
+    -ios-background-image: 'maintabBgImage.png';
+    -ios-friends-normal-icon-image: 'maintabIcoFriends.png';
+    -ios-friends-selected-icon-image: 'maintabIcoFriendsSelected.png';
+    -ios-chats-normal-icon-image: 'maintabIcoChats.png';
+    -ios-chats-selected-icon-image: 'maintabIcoChatsSelected.png';
+    -ios-browse-normal-icon-image: 'maintabIcoBrowse.png';
+    -ios-browse-selected-icon-image: 'maintabIcoBrowseSelected.png';
+    -ios-find-normal-icon-image: 'maintabIcoFind.png';
+    -ios-find-selected-icon-image: 'maintabIcoFindSelected.png';
+    -ios-piccoma-normal-icon-image: 'maintabIcoPiccoma.png';
+    -ios-piccoma-selected-icon-image: 'maintabIcoPiccomaSelected.png';
+    -ios-game-normal-icon-image: 'maintabIcoGame.png';
+    -ios-game-selected-icon-image: 'maintabIcoGameSelected.png';
+    -ios-more-normal-icon-image: 'maintabIcoMore.png';
+    -ios-more-selected-icon-image: 'maintabIcoMoreSelected.png';
+    -ios-openchats-normal-icon-image: 'maintabIcoOpenChats.png';
+    -ios-openchats-selected-icon-image: 'maintabIcoOpenChatsSelected.png';
+    -ios-shopping-normal-icon-image: 'maintabIcoShopping.png';
+    -ios-shopping-selected-icon-image: 'maintabIcoShoppingSelected.png';
+}
+
+DefaultProfileStyle {
+    -ios-profile-images: 'profileImg01.png' 'profileImg02.png' 'profileImg03.png' 'profileImg04.png' 'profileImg05.png' 'profileImg06.png' 'profileImg07.png';
+}
+
+MessageCellStyle-Send {
+    -ios-background-image: 'chatroomBubbleSend01.png' 24px 24px;
+    -ios-selected-background-image: 'chatroomBubbleSend01Selected.png' 24px 24px;
+    -ios-group-background-image: 'chatroomBubbleSend02.png' 24px 24px;
+    -ios-group-selected-background-image: 'chatroomBubbleSend02Selected.png' 24px 24px;
+    -ios-title-edgeinsets: 10px 12px 7px 16px;
+    -ios-group-title-edgeinsets: 10px 12px 7px 16px;
+    -ios-text-color: #3E2A1F;
+    -ios-selected-text-color: #3E2A1F;
+    -ios-unread-text-color: #3E2A1F;
+}
+
+MessageCellStyle-Receive {
+    -ios-background-image: 'chatroomBubbleReceive01.png' 24px 24px;
+    -ios-selected-background-image: 'chatroomBubbleReceive01Selected.png' 24px 24px;
+    -ios-group-background-image: 'chatroomBubbleReceive02.png' 24px 24px;
+    -ios-group-selected-background-image: 'chatroomBubbleReceive02Selected.png' 24px 24px;
+    -ios-title-edgeinsets: 10px 16px 7px 12px;
+    -ios-group-title-edgeinsets: 10px 16px 7px 12px;
+    -ios-text-color: #3E2A1F;
+    -ios-selected-text-color: #3E2A1F;
+    -ios-unread-text-color: #6B4A32;
+}
+
+BackgroundStyle-ChatRoom {
+    background-color: #F8EEDC;
+    -ios-background-image: 'chatroomBgImage.png';
+}
+
+InputBarStyle-Chat {
+    background-color: #FFF8EC;
+    -ios-send-normal-background-color: #6B4A32;
+    -ios-send-highlighted-background-color: #3E2A1F;
+    -ios-send-normal-foreground-color: #FFF8EC;
+    -ios-send-highlighted-foreground-color: #FFF8EC;
+    -ios-button-normal-foreground-color: #6B4A32;
+    -ios-button-highlighted-foreground-color: #3E2A1F;
+}
+
+BackgroundStyle-MessageNotificationBar {
+    background-color: #6B4A32;
+}
+
+LabelStyle-MessageNotificationBarName {
+    -ios-text-color: #FFF8EC;
+}
+
+LabelStyle-MessageNotificationBarMessage {
+    -ios-text-color: #F7E4C5;
+}
+
+BackgroundStyle-DirectShareBar {
+    background-color: #FFF8EC;
+}
+
+LabelStyle-DirectShareBarName {
+    -ios-text-color: #3E2A1F;
+}
+
+LabelStyle-DirectShareBarMessage {
+    -ios-text-color: #6B4A32;
+}
+
+BackgroundStyle-Passcode {
+    background-color: #F8EEDC;
+    -ios-background-image: 'passcodeBgImage.png';
+}
+
+LabelStyle-PasscodeTitle {
+    -ios-text-color: #3E2A1F;
+}
+
+PasscodeStyle {
+    -ios-bullet-first-image: 'passcodeImgCode01.png';
+    -ios-bullet-second-image: 'passcodeImgCode02.png';
+    -ios-bullet-third-image: 'passcodeImgCode03.png';
+    -ios-bullet-fourth-image: 'passcodeImgCode04.png';
+    -ios-bullet-selected-first-image: 'passcodeImgCode01Selected.png';
+    -ios-bullet-selected-second-image: 'passcodeImgCode02Selected.png';
+    -ios-bullet-selected-third-image: 'passcodeImgCode03Selected.png';
+    -ios-bullet-selected-fourth-image: 'passcodeImgCode04Selected.png';
+    -ios-keypad-background-color: #F3D9B8;
+    -ios-keypad-text-normal-color: #3E2A1F;
+    -ios-keypad-number-highlighted-image: 'passcodeKeypadPressed.png';
+}
